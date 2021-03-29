@@ -1,0 +1,140 @@
+html,
+body {
+  color: black;
+  background-color: white;
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+}
+
+.gradient {
+  background: rgb(0, 88, 122);
+  background: linear-gradient(90deg, rgba(0, 88, 122, 1) 49%, rgba(0, 136, 145, 1) 90%);
+}
+
+.navbar ul li a {
+  margin-right: 20px;
+}
+
+/* header */
+.header {
+  color: white;
+  margin-top: 4rem;
+  font-size: 1.2rem;
+}
+
+/* partner */
+#partner {
+  padding-top: 5rem;
+}
+
+#partner h1 {
+  /* font-weight: bold; */
+  margin-bottom: 30px;
+  font-family: "Fira Sans", sans-serif;
+}
+
+/* Introducing */
+#introducing {
+  background: #1a508b;
+  background: linear-gradient(90deg, rgba(26, 80, 139, 1) 55%, rgba(22, 135, 167, 1) 100%);
+  color: white;
+}
+
+.container ul {
+  padding-left: 1rem;
+  list-style: none;
+}
+
+#introducing .container ul li {
+  padding-left: 2rem;
+  color: white;
+  height: 30px;
+  /* height: 20px;
+  width: 20px; */
+  background-image: url(img/check.png);
+  background-repeat: no-repeat;
+}
+
+/* service */
+#Service {
+  padding-top: 5rem;
+}
+
+#Service i {
+  background: rgb(0, 88, 122);
+  background: linear-gradient(90deg, rgba(0, 88, 122, 1) 49%, rgba(0, 136, 145, 1) 90%);
+  color: white;
+  height: 4rem;
+  width: 4rem;
+  font-size: 2rem;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+#Service .container h1 {
+  margin-bottom: 30px;
+  font-family: "Fira Sans", sans-serif;
+}
+
+/* Gallery */
+#gallery {
+  background-color: #eee;
+}
+.thumbnail {
+  padding: 5px;
+  border: 2px solid #dddddd;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.thumbnail img {
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 10px;
+}
+
+/* Features */
+#Features {
+  color: white;
+  background: #1a508b;
+  background: linear-gradient(90deg, rgba(26, 80, 139, 1) 55%, rgba(22, 135, 167, 1) 100%);
+}
+
+#Features {
+  padding-top: 5rem;
+}
+
+#Features h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-family: "Fira Sans", sans-serif;
+}
+
+/* contact */
+#contact {
+  padding-top: 5rem;
+}
+
+#contact h2 {
+  font-family: "Fira Sans", sans-serif;
+}
+/* footer */
+footer {
+  color: white;
+  background-color: #0f3057;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  color: white;
+}
+
+/* section */
+/* section {
+  padding-top: 5rem;
+} */
