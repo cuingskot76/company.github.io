@@ -1,14 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 html,
 body {
   color: black;
-  background-color: white;
+  background-color: #eeeeee;
   font-family: "Montserrat", sans-serif;
   box-sizing: border-box;
 }
 
 .gradient {
-  background: rgb(0, 88, 122);
-  background: linear-gradient(90deg, rgba(0, 88, 122, 1) 49%, rgba(0, 136, 145, 1) 90%);
+  background: rgb(32, 54, 71);
+  background: linear-gradient(187deg, rgba(32, 54, 71, 1) 13%, rgba(0, 124, 199, 1) 90%, rgba(77, 168, 218, 1) 100%);
 }
 
 .navbar ul li a {
@@ -30,13 +34,15 @@ body {
 #partner h1 {
   /* font-weight: bold; */
   margin-bottom: 30px;
-  font-family: "Fira Sans", sans-serif;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 3px;
+  text-decoration: underline;
 }
 
 /* Introducing */
 #introducing {
-  background: #1a508b;
-  background: linear-gradient(90deg, rgba(26, 80, 139, 1) 55%, rgba(22, 135, 167, 1) 100%);
+  background: rgb(32, 54, 71);
+  background: linear-gradient(342deg, rgba(32, 54, 71, 1) 28%, rgba(0, 124, 199, 1) 90%, rgba(77, 168, 218, 1) 100%);
   color: white;
 }
 
@@ -61,8 +67,8 @@ body {
 }
 
 #Service i {
-  background: rgb(0, 88, 122);
-  background: linear-gradient(90deg, rgba(0, 88, 122, 1) 49%, rgba(0, 136, 145, 1) 90%);
+  background: rgb(32, 54, 71);
+  background: linear-gradient(135deg, rgba(32, 54, 71, 1) 50%, rgba(0, 124, 199, 1) 95%, rgba(77, 168, 218, 1) 100%);
   color: white;
   height: 4rem;
   width: 4rem;
@@ -74,16 +80,19 @@ body {
 }
 #Service .container h1 {
   margin-bottom: 30px;
-  font-family: "Fira Sans", sans-serif;
+  letter-spacing: 3px;
+  font-family: "Bebas Neue", cursive;
+  text-decoration: underline;
 }
 
 /* Gallery */
 #gallery {
-  background-color: #eee;
+  background-color: #ddd;
+  /* padding-bottom: 5rem; */
 }
 .thumbnail {
   padding: 5px;
-  border: 2px solid #dddddd;
+  border: 2px solid #ccc;
   border-radius: 20px;
   margin-top: 20px;
 }
@@ -97,9 +106,9 @@ body {
 
 /* Features */
 #Features {
+  background: rgb(22, 23, 72);
+  background: linear-gradient(173deg, rgba(22, 23, 72, 1) 28%, rgba(71, 133, 89, 1) 62%, rgba(57, 160, 202, 1) 100%);
   color: white;
-  background: #1a508b;
-  background: linear-gradient(90deg, rgba(26, 80, 139, 1) 55%, rgba(22, 135, 167, 1) 100%);
 }
 
 #Features {
@@ -109,7 +118,9 @@ body {
 #Features h1 {
   text-align: center;
   margin-bottom: 30px;
-  font-family: "Fira Sans", sans-serif;
+  letter-spacing: 3px;
+  font-family: "Bebas Neue", cursive;
+  text-decoration: underline;
 }
 
 /* contact */
@@ -118,7 +129,9 @@ body {
 }
 
 #contact h2 {
-  font-family: "Fira Sans", sans-serif;
+  letter-spacing: 3px;
+  font-family: "Bebas Neue", cursive;
+  text-decoration: underline;
 }
 /* footer */
 footer {
