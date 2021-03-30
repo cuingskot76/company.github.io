@@ -8,6 +8,7 @@ body {
   background-color: #eeeeee;
   font-family: "Montserrat", sans-serif;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 .gradient {
